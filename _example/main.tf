@@ -13,7 +13,7 @@ provider "aws" {
 provider "aws" {
   region  = local.replica_region
   alias   = "replica"
-  profile = "deepak"
+  profile = "dest"
 }
 
 data "aws_caller_identity" "current" {}
